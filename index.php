@@ -28,7 +28,8 @@
             var dados= {
                 userID:userID,
                 userName:userName,
-                userEmail:userEmail
+                userEmail:userEmail,
+                userImg:userImg
             };
 
             $.post('cadastra.php',dados, function(retorna){
